@@ -12,18 +12,29 @@
 
 
 // With bracket order of operations
-let x = 11 
 
-let num = (x + 1) * 2;
+// let x = 11 
+// let num = (x + 1) * 2;
 
-console.log(num) // Result: 24
+// console.log(num) // Result: 24
 
 
 // Without bracket order of operations
-let x = 11 
 
-let num = x + 1 * 2;
+// let x = 11 
+// let num = x + 1 * 2;
 
-console.log(num) // Result: 13
+// console.log(num) // Result: 13
 
 
+// CHALLENGE TWO
+
+// 2 Variables that store numbers: studentScore & maxScore
+// Another variable percentScore should divide both studentScore & maxScore 
+// then multiply by 100
+
+let studentScore = 14
+let maxScore = 20
+let percentScore = (studentScore / maxScore) * 100
+
+console.log(percentScore)

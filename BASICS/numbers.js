@@ -1,9 +1,5 @@
 // Data Type: Numbers
 
-let num = 5.5
-
-console.log(num)
-
 // Arithmetic operators
 // + : Addition
 // - : Subtraction
@@ -13,4 +9,21 @@ console.log(num)
 // % : Modulus / Remainder 
 // ++ : Increment
 // -- : Decrement
+
+
+// With bracket order of operations
+let x = 11 
+
+let num = (x + 1) * 2;
+
+console.log(num) // Result: 24
+
+
+// Without bracket order of operations
+let x = 11 
+
+let num = x + 1 * 2;
+
+console.log(num) // Result: 13
+
 

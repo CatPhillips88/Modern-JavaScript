@@ -1,2 +1,2 @@
-# Modern-JavaScript
+# Modern JavaScript
 Practice from Udemy Course

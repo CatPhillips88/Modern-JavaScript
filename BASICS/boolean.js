@@ -23,7 +23,7 @@ let temp = 31;
 
 // let isFreezing = temp <= 32; // returns true
 let isFreezing = temp >= 32; //returns false
-console.log(isFreezing) 
+console.log(isFreezing)
 
 // CHALLENGE FOUR
 

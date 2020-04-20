@@ -19,7 +19,7 @@ if (isAccountLocked) {
 
 // CHALLENGE SIX
 
-// We want to use if/else statements to carry out a test on outside weather temperature
+// We want to use if/else statements to carry out a test on outside weather temperature recommendation
 
 let temp = 45;
 

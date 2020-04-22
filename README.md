@@ -11,3 +11,6 @@ JavaScript Basics: Variables & Flow Control
    - Advanced If Statements
    - Logical Operators: && and || 
    - Variable Scope part 1 and 2
+   
+ JavaScript Functions
+  - Functions 101

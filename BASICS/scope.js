@@ -10,11 +10,11 @@
 // In a scope you can access variables defined in that scope, or in any parent/ancestor
 
 // Global Scope(varOne) 
-  // Local Scope (varTwo) 
-    // Local Scope (varFour) // nested block 
-  // Local Scope (varThree) 
+// Local Scope (varTwo) 
+// Local Scope (varFour) // nested block 
+// Local Scope (varThree) 
 
-let varOne = 'varOne' 
+let varOne = 'varOne'
 
 if (true) {
     console.log(varOne)

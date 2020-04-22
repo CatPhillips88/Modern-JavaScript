@@ -8,8 +8,8 @@ let greetUser = function () {
 greetUser()
 
 let square = function (num) {
-   let result = num * num
-   return result
+    let result = num * num
+    return result
 }
 
 let value = square(3)
@@ -27,7 +27,7 @@ let convertFahrenheitToCelsius = function (fahrenheit) {
     return conversion
 }
 
-let celsiusTemp =convertFahrenheitToCelsius(32)
+let celsiusTemp = convertFahrenheitToCelsius(32)
 let otherCelsiusTemp = convertFahrenheitToCelsius(68)
 console.log(celsiusTemp)
 console.log(otherCelsiusTemp)

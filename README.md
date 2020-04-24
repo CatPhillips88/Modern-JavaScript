@@ -14,3 +14,8 @@ JavaScript Basics: Variables & Flow Control
    
  JavaScript Functions
   - Functions 101
+  - Undefined & Null
+  - Functions with Multiple Arguments & Defaults
+  - Scoping: Local & Global
+  - Template Strings
+  - Build a Grade Calculator Challenge

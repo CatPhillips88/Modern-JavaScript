@@ -1,4 +1,4 @@
-// Arguments
+// Arguments & Template Strings
 
 // Multiple Arguments
 
@@ -16,19 +16,25 @@ console.log(result)
 
 
 let getScoreText = function (name = 'Anonymous', score = 0) {
-    return 'Name: ' + name + ' - Score: ' + score
+    // return 'Name: ' + name + ' - Score: ' + score
+    return `Name: ${name} - Score: ${score}`
 }
 
 let scoreText = getScoreText(undefined, 99)
 console.log(scoreText)
 
-// CHALLENGE NINE
+// CHALLENGE NINE & TEN
 
 // Tip Calculator: create a function that calculates a tip percentage (20%) added to a restaurant bill
+// Use a template string to return the tip message 
+// For example: A 25% Tip on $40 would be $10
 
 let calculateTip = function (total, tipPercent = .2) {
-    return total * tipPercent
+    let finalTotal = total * tipPercent
+    return `A ${tipPercent * 100}% Tip on ${total} would be $${finalTotal}`
+
 }
 
-let getTip = calculateTip(100)
+let getTip = calculateTip(60)
 console.log(getTip)
+

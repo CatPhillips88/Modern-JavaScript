@@ -19,9 +19,6 @@ let getSummary = function (book) {
         summary: `${book.title} by ${book.author}`,
         pageCountSummary: `${book.title} is ${book.pageCount} pages long`
     }
-
-
-
 }
 
 let bookSummary = getSummary(myBook)

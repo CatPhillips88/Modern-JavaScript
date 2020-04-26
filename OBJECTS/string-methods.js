@@ -36,8 +36,10 @@ let isValidPassword = function (password) {
     } else {
         return false
     }
-}
 
+    // if we deconstruct -  we can use return password.length > 8 && !password.includes('password')
+    // which would have the same outcome
+}
 console.log(isValidPassword('asdfp')) // false
 console.log(isValidPassword('abc123fg$%%*')) // true
 console.log(isValidPassword('hdhfhgtebpasswordhahshsah')) // false

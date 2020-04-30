@@ -7,12 +7,23 @@
 
 const todos = ['Brush teeth', 'Wash face', 'Cream skin', 'Get dressed', 'Comb Hair']
 
-const message = `You have ${todos.length} todos`
+// const message = `You have ${todos.length} todos`
 
-console.log(message)
+// console.log(message)
 
-const first = `Todo: ${todos[0]}`
-const secondToLast = `Todo: ${todos[todos.length - 2]}`
+// const first = `Todo: ${todos[0]}`
+// const secondToLast = `Todo: ${todos[todos.length - 2]}`
 
-console.log(first)
-console.log(secondToLast)
+// console.log(first)
+// console.log(secondToLast)
+
+// CHALLENGE SEVENTEEN
+
+// Delete 3rd item 
+// Add new item onto the end of array
+// Remove first item from the list
+
+todos.splice(2, 1)
+todos.push('Put makeup on')
+todos.shift()
+console.log(todos)

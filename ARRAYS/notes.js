@@ -42,7 +42,21 @@ const notes = ['Note 1', 'Note 2', 'Note 3']
 
 // notes.splice(1, 1, 'this is the new second item')
 
-notes[2] = 'This is now the new note 3'
+// notes[2] = 'This is now the new note 3'
+
+
+// Looping
+
+// forEach (method) - is a callback method which for every value within the array the function is carried out
+// the function is never called directly instead the api call from forEach is called.
+
+// The example below loops over the array using item and index as arguments from the callback function
+// to display items within the array and their index positioning via console log
+
+notes.forEach(function(item, index) {
+    console.log(index)
+    console.log(item)
+})
 
 console.log(notes)
 

@@ -7,9 +7,9 @@
 
 const todos = ['Brush teeth', 'Wash face', 'Cream skin', 'Get dressed', 'Comb Hair']
 
-// const message = `You have ${todos.length} todos`
+const message = `You have ${todos.length} todos`
 
-// console.log(message)
+console.log(message)
 
 // const first = `Todo: ${todos[0]}`
 // const secondToLast = `Todo: ${todos[todos.length - 2]}`
@@ -23,7 +23,16 @@ const todos = ['Brush teeth', 'Wash face', 'Cream skin', 'Get dressed', 'Comb Ha
 // Add new item onto the end of array
 // Remove first item from the list
 
-todos.splice(2, 1)
-todos.push('Put makeup on')
-todos.shift()
-console.log(todos)
+// todos.splice(2, 1)
+// todos.push('Put makeup on')
+// todos.shift()
+// console.log(todos)
+
+// CHALLENGE EIGHTEEN
+
+// Use forEach method to print the todos as a numbered list
+// For example: 1. Brush Teeth
+
+todos.forEach(function (item, index) {
+   console.log(`${index + 1}. ${item}`)
+})

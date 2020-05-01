@@ -36,3 +36,11 @@ console.log(message)
 todos.forEach(function (item, index) {
    console.log(`${index + 1}. ${item}`)
 })
+
+// CHALLENGE NINETEEN
+
+// Use for statement to print the todos as per the previous challenge
+
+for (let i = 0; i < todos.length; i++) {
+   console.log(`${i + 1}. ${todos[i]}`)
+}

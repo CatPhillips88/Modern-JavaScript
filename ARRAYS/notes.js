@@ -4,7 +4,7 @@
 // there are a number of methods we can perform or mutate values in programming
 
 
-const notes = ['Note 1', 'Note 2', 'Note 3']
+// const notes = ['Note 1', 'Note 2', 'Note 3']
 
 // Bracket notation
 
@@ -93,6 +93,40 @@ const notes = ['Note 1', 'Note 2', 'Note 3']
 // for (let count = 0; count < notes.length; count++) {
 //    console.log(notes[count])
 // }
+
+// indexOf (method) 
+
+// the indexOf method returns the first index of an element in the array
+// otherwise -1 is returned if element undefined in array
+
+// console.log(notes.indexOf('Note 2')) // returns 1
+// console.log(notes.indexOf('note 2')) // returns -1 owing to case sensitivity
+
+// findIndex (method) returns index of first element in array when a test condition via a function
+// is satsified true or not false
+
+// pseudocode: using the findIndex to execute a callback function where we search for a match within 
+// the notes array of objects. 
+// the argument (item) is used with dot notation to access object property value to compare using the 
+// triple equals operator to search for a match and return its index which in this example is 3
+
+const notes = [{}, {
+   title: 'My next trip',
+   body: 'I would like to go to Califonia'
+}, {
+   title: 'Habits to work on',
+   body: 'Exercise'
+}, {
+   title: 'Office modification',
+   body: 'Get a new seat'
+}]
+
+const index = notes.findIndex(function (item, index) {
+  return item.body === 'Get a new seat'
+})
+
+console.log(index)
+
 
 
 

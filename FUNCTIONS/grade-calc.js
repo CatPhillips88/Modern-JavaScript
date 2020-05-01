@@ -8,8 +8,8 @@
 // 15/20 - you got a c (75%)!
 // A: 90 -100, B: 80 -89, C:70-79, D: 60-69, E: 0-59
 
-let totalScore = function (studentScore, totalScore = 20) {
-    let scoreCalculation = (studentScore / totalScore) * 100
+const totalScore = function (studentScore, totalScore = 20) {
+    const scoreCalculation = (studentScore / totalScore) * 100
     let letterGrade = ''
 
     //     if (scoreCalculation >= 90) {
@@ -41,6 +41,6 @@ let totalScore = function (studentScore, totalScore = 20) {
 }
 
 
-    let results = totalScore(0)
-    console.log(results)
+const results = totalScore(0)
+console.log(results)
 

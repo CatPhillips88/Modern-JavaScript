@@ -63,7 +63,8 @@ const notes = ['Note 1', 'Note 2', 'Note 3']
 // Looping - for()
 
 // for (statement)  - is a loop containing 3 expressions within the parentheses
-// these expressions as used to execute a loop
+// these expressions as used to execute code block, it gives more flexibility than
+// the forEach method
 
 // first you would need to declare a counter variable known as the initialiser 
 // the counter variable is locally scoped
@@ -73,6 +74,9 @@ const notes = ['Note 1', 'Note 2', 'Note 3']
 // however if false then the condition will stop executing code
 
 // then third expression can either increment or decrement the counter upon the condition evaluating as true
+
+
+
 
 // pseudocode: using a for loop over the notes array, the initialiser is set to 0
 // the condition to be tested if the count is less than the length of the array which is 3

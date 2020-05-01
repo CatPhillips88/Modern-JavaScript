@@ -86,13 +86,13 @@ const notes = ['Note 1', 'Note 2', 'Note 3']
 // in the for statement the variable count becomes the new index
 
 
-for (let count = 0; count <= 2; count++) {
-    console.log(count)
-}
+// for (let count = 0; count <= 2; count++) {
+//     console.log(count)
+// }
 
-for (let count = 0; count < notes.length; count++) {
-   console.log(notes[count])
-}
+// for (let count = 0; count < notes.length; count++) {
+//    console.log(notes[count])
+// }
 
 
 
